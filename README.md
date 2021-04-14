@@ -3,8 +3,8 @@
 This Project is of "Robot Localization". Since certain files are off larger size, uploading to git was challenging even with 'Git LFS' henceforth a zip file.
 
 ## Build and Run
-* Download and extract the files to appropriate folder.
 ### Terminal 1
+* Download and extract the files to appropriate folder.
 ```
 git clone git@github.com:HarshaPhaneendra/Where_am_I.git
 unzip Where_am_I.zip
@@ -23,9 +23,9 @@ source devel/setup.bash
 ```
 roslaunch my_robot world.launch
 ```
+### Terminal 2
 * Alternative way to use "teleop_twist_keyboard" pkg. 
 * Use keyboard to move robot.
-### Terminal 2
 ```
 cd /home/<username>/catkin_ws
 source devel/setup.bash
