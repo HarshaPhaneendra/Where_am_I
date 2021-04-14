@@ -17,14 +17,14 @@ cd /home/<username>/catkin_ws
 catkin_make
 source devel/setup.bash
 ```
-* Run 'world.launch' which also includes rviz_config and 'amcl.launch' files. 
-* Ignore the initial warnings and wait roughly about 10-15 seconds to upload 'map' in rviz.
+* Run 'world.launch', which includes 'rviz_config' and 'amcl.launch' files. 
+* Ignore the initial set of warnings and wait roughly about 10-15 seconds to upload 'map' in rviz.
 * Use Nav-goal to set a destination/goal to robot. 
 ```
 roslaunch my_robot world.launch
 ```
 ### Terminal 2
-* Alternative way to use "teleop_twist_keyboard" pkg. 
+* Alternative/Rather fun way is to use "teleop_twist_keyboard" pkg. 
 * Use keyboard to move robot.
 ```
 cd /home/<username>/catkin_ws
