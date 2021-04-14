@@ -1,6 +1,6 @@
 # Where_am_I
 
-This Project/zip file is of "Robot Localization". Since certain files are of large size, uploading to git was challenging even with 'Git LFS' henceforth a zip file. 
+This Project is of "Robot Localization". Since certain files are off larger size, uploading to git was challenging even with 'Git LFS' henceforth a zip file.
 
 ## Build and Run
 * Download and extract the files to appropriate folder.
